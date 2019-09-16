@@ -19,9 +19,7 @@
   ],
   "author": "Grace Kalu",
   "license": "MIT",
-  "dependencies": {
-    "json-server": "^0.15.1"
-  },
+ 
   "bugs": {
     "url": "https://github.com/Meralds-World/meralds-food/issues"
   },
