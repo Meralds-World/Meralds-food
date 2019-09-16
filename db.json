@@ -1,0 +1,90 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "userName": "merald",
+            "firstName": "Grace",
+            "lastName": "kalu",
+            "email": "meraldcakes.gmail.com",
+            "password": "Grace",
+            "location": "portharcourt",
+            "phoneNumber": "07087777584"
+        },
+        {
+            "id": 2,
+            "userName": "remi",
+            "firstName": "Remi",
+            "lastName": "Opeyemi",
+            "email": "remiopeyemi.gmail.com",
+            "password": "ope",
+            "location": "abuja",
+            "phoneNumber": "07082222134"
+        },
+        {
+            "id": 3,
+            "userName": "glory",
+            "firstName": "Glory",
+            "lastName": "emmanuel",
+            "email": "gloformore.gmail.com",
+            "password": "gloformore",
+            "location": "portharcourt",
+            "phoneNumber": "07035555173"
+        },
+        {
+            "id": 4,
+            "userName": "leo",
+            "firstName": "leo",
+            "lastName": "umunna",
+            "email": "king123.gmail.com",
+            "password": "king",
+            "location": "lagos",
+            "phoneNumber": "08012342341"
+        }
+    ],
+    "food": [
+        {
+            "id": 1,
+            "foodType": "chinese",
+            "menu": "chinese rice",
+            "price": 5000
+        },
+        {
+            "id": 2,
+            "foodType": "african",
+            "menu": "native soup",
+            "price": 3000
+        },
+        {
+            "id": 3,
+            "foodType": "small chops",
+            "menu": "samosa",
+            "price": 1000
+        },
+        {
+            "id": 4,
+            "foodType": "cake",
+            "menu": "birthday cake",
+            "price": 8000
+        }
+    ],
+    "order": [
+        {
+            "id": 1,
+            "foodType": "african",
+            "price": 8000,
+            "location": "abuja"
+        },
+        {
+            "id": 2,
+            "foodType": "chinese",
+            "price": 1000,
+            "location": "abuja"
+        },
+        {
+            "id": 3,
+            "foodType": "cake",
+            "price": 8000,
+            "location": "abuja"
+        }
+    ]
+}
