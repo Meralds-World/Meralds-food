@@ -1,0 +1,29 @@
+{
+  "name": "meralds-food",
+  "version": "1.0.0",
+  "description": "This is a product which helps customers place fresh orders for food and get orders delivered",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meralds-World/meralds-food.git"
+  },
+  "keywords": [
+    "food",
+    "order",
+    "update",
+    "read",
+    "delete"
+  ],
+  "author": "Grace Kalu",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Meralds-World/meralds-food/issues"
+  },
+  "homepage": "https://github.com/Meralds-World/meralds-food#readme"
+}
