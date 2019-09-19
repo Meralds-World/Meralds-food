@@ -217,3 +217,54 @@
                         </form>
                     </div>
                 </div>
+                <div class="modal-footer">
+                    Already a User? <a class="btn btn-default" data-toggle="modal" data-target="#loginModal"
+                        href="#">Login</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h5 class="modal-title text-white" id="loginModalLabel">Login</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="loginForm" action="http://localhost:3000/user" method="GET">
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="email" class="form-control" id="loginEmail" placeholder="Email" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="password" class="form-control" id="loginPassword" placeholder="Password"
+                                    required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" onclick="loginUser()">Log in</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    Not a User? <a class="btn btn-default" data-toggle="modal" data-target="#regModal"
+                        href="#">Register</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./scripts/signup.js"></script>
+    <script src="./scripts/login.js"></script>
+</body>
+
+</html>
