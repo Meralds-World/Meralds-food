@@ -117,3 +117,103 @@
             </figure>
         </div>
     </section>
+
+    <footer class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="nav-item nav-link text-secondary" href="admin.html"><small>Admin</small></a>
+            <div class="copyright">
+                <p class="text-secondary">Merald's food <small class="text-white">Copyright &copy; 2019</small></p>
+            </div>
+            <div class="collapse navbar-collapse" id="toggle-control">
+                <nav class="navbar-nav  ml-auto">
+                    <a class="nav-item nav-link active text-secondary" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="nav-item nav-link text-secondary" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="nav-item nav-link text-secondary" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="nav-item nav-link text-secondary" href="#"><i class="fab fa-linkedin"></i></a>
+                </nav>
+            </div>
+        </nav>
+    </footer>
+    <!-- Registration Modal -->
+    <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="regModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h5 class="modal-title text-white" id="regModalLabel">Sign Up</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="right-panel">
+                    <div class="modal-body">
+                        <form class="signupForm" action="http://localhost:3000/user">
+                            <div class="form-row">
+                                <div class="form-group col-auto">
+                                    <input type="text" class="form-control" id="userName" placeholder="User-name"
+                                        required>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="phoneNumber" placeholder="Phone-Number"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password" placeholder="Password"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="rePassword"
+                                    placeholder="Confirm Password" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <select id="location" class="form-control" required>
+                                        <option selected>Choose...</option>
+                                        <option>Abia</option>
+                                        <option>Adamawa</option>
+                                        <option>Akwa Ibom</option>
+                                        <option>Bauchi</option>
+                                        <option>Bayelsa</option>
+                                        <option>Benue</option>
+                                        <option>Borno</option>
+                                        <option>Cross River</option>
+                                        <option>Delta</option>
+                                        <option>Ebonyi</option>
+                                        <option>Edo</option>
+                                        <option>Ekiti</option>
+                                        <option>Enugu</option>
+                                        <option">Gombe</option>
+                                            <option>Imo</option>
+                                            <option>Jigawa</option>
+                                            <option>Kaduna</option>
+                                            <option>Kano</option>
+                                            <option>Katsina</option>
+                                            <option>Kebbi</option>
+                                            <option>Kogi</option>
+                                            <option>Lagos</option>
+                                            <option>Nasarrawa</option>
+                                            <option>Niger</option>
+                                            <option>Ogun</option>
+                                            <option>Ondo</option>
+                                            <option>Osun</option>
+                                            <option>Oyo</option>
+                                            <option>Plateau</option>
+                                            <option>Rivers</option>
+                                            <option>Sokoto</option>
+                                            <option>Taraba</option>
+                                            <option>Yobe</option>
+                                            <option>Zamfara</option>
+                                            <option>Abuja</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button id="Sign-up" type="submit" class="btn btn-primary btn-block"
+                                onclick="addUser()">Sign up</button>
+                        </form>
+                    </div>
+                </div>
