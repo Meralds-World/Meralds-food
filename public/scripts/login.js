@@ -13,3 +13,4 @@ function loginUser() {
                 url: url + `?loginEmail=${email}&&loginPassword=${password}`,
                 type: 'GET',
                 dataType: 'json'
+                
