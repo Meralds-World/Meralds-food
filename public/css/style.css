@@ -26,9 +26,14 @@ body {
 .hero img {
     width: 90%;
     margin-top: 30px;
+    
+    transition: all 0.5s;
 }
 
-.hero .hero-right {
+.hero img:hover{
+  transform: scale(1.05);
+}
+.hero-right {
     margin-top: 90px;
 }
 
