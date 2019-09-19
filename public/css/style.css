@@ -11,3 +11,28 @@ body {
     /* background-color: #999; linear-gradient(left to right rgba(0,0,0,0.2),rgba(0,0,0,0.2)), */
     margin-top: 5px;
 }
+
+.navbar {
+    font-family: val(--header-font);
+    background: blue
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: val(--header-font);
+}
+
+.hero img {
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.hero .hero-right {
+    margin-top: 90px;
+}
+
+p {
+    font-family: val(--paragraph-font);
+}
