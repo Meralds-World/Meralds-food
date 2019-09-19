@@ -100,3 +100,78 @@ footer {
 .copyright {
     margin-top: 15px;
 }
+
+.form-heading {
+    display: block;
+    font-size: 2rem;
+    margin-left: 10%;
+}
+
+.form-headings {
+    display: block;
+    font-size: 2rem;
+    margin-left: -15%;
+    
+}
+.panel {
+    margin-top:4rem;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: fixed;
+    right: 25%;
+    width: 50%;
+    min-height: 60%;
+    height: 91.2%;
+    overflow: hidden;
+    background: red;
+    background-repeat: repeat;
+}
+form {
+    display: block;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.meal-showcase{
+  list-style: none;
+ }
+ .meal-showcase li{
+   display: block;
+   width: 25%;
+   float: left;
+  }
+
+ .meal-photo{
+ width: 100%;
+  margin: 0;
+  overflow: hidden;
+ }
+ .meal-photo img{
+   width: 100%;
+   height: auto;
+   transform: scale(1.15);
+   transition: all 0.5s;
+ }
+ .meal-photo img:hover{
+   transform: scale(1.05);
+ }
+ .meal{
+   margin-top: 60px;
+ }
+
+.form-inputs {
+    border: 1px solid #D4D9E2;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    color: #596377;
+    outline: 0;
+    height: 40px;
+    display: block;
+    width: 68.5%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    transition: border-color .2s ease;
+}
