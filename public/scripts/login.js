@@ -13,4 +13,18 @@ function loginUser() {
                 url: url + `?loginEmail=${email}&&loginPassword=${password}`,
                 type: 'GET',
                 dataType: 'json'
-                
+            }).done((data) => {
+                console.log(data)
+                if (data.length === 0) {
+                    alert('User login credentials incorrect')
+                } else {
+                    const { id, userName, email, location } = data[0]
+                    const userDetails = JSON.stringify({ id, userName, email, location })
+                    localStorage.setItem("users", userDetails);
+                    window.location.replace('./welcome.html')
+                }
+            })
+        }
+        return false;
+    })
+}
