@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Poppins|Roboto&display=swap');
+
+:root {
+    --header-font: Poppins;
+    --paragraph-font: Roboto;
+}
+
+body {
+    background: white;
+    background-size: cover;
+    /* background-color: #999; linear-gradient(left to right rgba(0,0,0,0.2),rgba(0,0,0,0.2)), */
+    margin-top: 5px;
+}
