@@ -16,3 +16,16 @@ function loginAdmin() {
             }).done((data) => {
                 console.log(data)
                 if (data.length === 0) {
+
+                    alert('Admin login credentials incorrect')
+                } else {
+                    const { id, email } = data[0]
+                    const adminDetails = JSON.stringify({ id, email })
+                    localStorage.setItem("admin", adminDetails);
+                    window.location.replace('./create.html');
+                }
+            })
+        }
+        return false;
+    })
+}
