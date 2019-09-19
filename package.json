@@ -4,7 +4,8 @@
   "description": "This is a product which helps customers place fresh orders for food and get orders delivered",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,11 @@
   ],
   "author": "Grace Kalu",
   "license": "MIT",
- 
   "bugs": {
     "url": "https://github.com/Meralds-World/meralds-food/issues"
   },
-  "homepage": "https://github.com/Meralds-World/meralds-food#readme"
+  "homepage": "https://github.com/Meralds-World/meralds-food#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
 }
