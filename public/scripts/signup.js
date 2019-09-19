@@ -39,3 +39,7 @@ function addUser() {
                 }
             })
         }
+
+        return false;
+    })
+}
