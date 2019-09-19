@@ -12,3 +12,59 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
+<body>
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+            <a href="index.html" class="navbar-brand">Merald's Food</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggle-control"
+                aria-controls="toggle-control" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggle-control">
+                <nav class="navbar-nav  ml-auto">
+                    <a class="nav-item nav-link active text-secondary" href="index.html">Home</a>
+                    <a class="nav-item nav-link active text-secondary" href="index.html">Log-out</a>
+                    <a class="nav-item nav-link text-secondary" data-toggle="modal" data-target="#createModal"
+                        href="#">Create </a>
+                    <a class="nav-item nav-link text-secondary" data-toggle="modal" data-target="#updateModal"
+                        href="#">Update</a>
+                    <a class="nav-item nav-link text-secondary" data-toggle="modal" data-target="#deleteModal"
+                        href="#">Delete</a>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="hero-left">
+                        <img src="./img/afri7.jpg" alt="hero-image" width="500px" height="300px">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="hero-right">
+                        <h1>Food Delivery right at your doorstep</h1>
+                        <h2>All your catering needs met without stress</h2>
+                    </div>
+                    <br>
+                    <a href="adminView.html" class="btn btn-primary btn-lg hero-btn">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Create Modal -->
+    <section>
+        <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                        <h5 class="modal-title text-white" id="loginModalLabel">Create the Menu</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="create" action="http://localhost:3000/food">
