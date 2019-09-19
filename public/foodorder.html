@@ -1,0 +1,107 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SoftLoan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+            <a href="index.html" class="navbar-brand">Merald's Food</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggle-control"
+                aria-controls="toggle-control" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggle-control">
+                <nav class="navbar-nav  ml-auto">
+                    <a class="nav-item nav-link active text-secondary" href="index.html">Home</a>
+                    <a class="nav-item nav-link active text-secondary" href="./index.html">Log-out</a>
+                    <a class="nav-item nav-link active text-secondary" href="order.html">Create</a>
+                    <a class="nav-item nav-link active text-secondary" href="View.html">View</a>
+            </div>
+            </div>
+        </nav>
+        </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="panel" id="input_box">
+            <h3> Food Order Form </h3><br>
+            <form class="form" action="http://localhost:3000/order">
+                <div class="form-group">
+                    <select required class="form-control" id="foodType">
+                        <option> Select Food Type ... </option>
+                        <option> Akara (fried bean cake) and Pap </option>
+                        <option> Cereals and skimmed milk/low fat yoghurt </option>
+                        <option> Pizza and fresh pinapple juice </option>
+                        <option> Jollof rice with fish </option>
+                        <option> Pancakes with apple + mapple syrup </option>
+                        <option> Cake </option>
+                        <option> Dodo and scrambled eggs </option>
+                        <option> Ogbono soup + amala and fish</option>
+                        <option> Bitterleaf soup + pounded yam and goat meat </option>
+                        <option> fried rice with chicken </option>
+                        <option> Burger and fries with coke </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select required class="form-control" id="price">
+                        <option> Select the amount... </option>
+                        <option> 1000 </option>
+                        <option> 2000 </option>
+                        <option> 3000 </option>
+                        <option> 4000 </option>
+                        <option> 5000 </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select required class="form-control" id="location">
+                        <option>Choose...</option>
+                        <option>Abia</option>
+                        <option>Adamawa</option>
+                        <option>Akwa Ibom</option>
+                        <option>Bauchi</option>
+                        <option>Bayelsa</option>
+                        <option>Benue</option>
+                        <option>Borno</option>
+                        <option>Cross River</option>
+                        <option>Delta</option>
+                        <option>Ebonyi</option>
+                        <option>Edo</option>
+                        <option>Ekiti</option>
+                        <option>Enugu</option>
+                        <option">Gombe</option>
+                            <option>Imo</option>
+                            <option>Jigawa</option>
+                            <option>Kaduna</option>
+                            <option>Kano</option>
+                            <option>Katsina</option>
+                            <option>Kebbi</option>
+                            <option>Kogi</option>
+                            <option>Lagos</option>
+                            <option>Nasarrawa</option>
+                            <option>Niger</option>
+                            <option>Ogun</option>
+                            <option>Ondo</option>
+                            <option>Osun</option>
+                            <option>Oyo</option>
+                            <option>Plateau</option>
+                            <option>Rivers</option>
+                            <option>Sokoto</option>
+                            <option>Taraba</option>
+                            <option>Yobe</option>
+                            <option>Zamfara</option>
+                            <option>Abuja</option>
+                    </select>
+
+
