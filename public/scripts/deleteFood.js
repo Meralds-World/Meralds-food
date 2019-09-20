@@ -23,7 +23,7 @@ function deleteFood() {
                 data: food,
                 success: function (data) {
 
-                    window.location = '/create.html';
+                    window.location.replace('./create.html');
                 }
             })
         }

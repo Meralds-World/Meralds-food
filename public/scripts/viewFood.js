@@ -1,10 +1,10 @@
 $(document).ready(function () {
     const gottenUser = JSON.parse(localStorage.getItem('admin'));
-    const newId = gottenUser.id;
+    const newId = gottenFood.id;
 
     $.ajax({
         type: 'GET',
-        url: `http://localhost:3000/food/?userEmail=${id}`,
+        url: `http://localhost:3000/food/?id=${newId}`,
         dataType: 'json'
     }).done(function (data) {
         console.log(data)
