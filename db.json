@@ -95,54 +95,57 @@
       "menu": "Egg",
       "side": "Okro",
       "id": 6
+    },
+    {
+      "foodType": "Plantain",
+      "price": "7000",
+      "menu": "Beans",
+      "side": "meat",
+      "id": 7
     }
   ],
   "order": [
     {
       "id": 1,
-      "userEmail": "makis@gmail.com",
       "foodType": "african",
       "price": 8000,
       "location": "abuja"
     },
     {
       "id": 2,
-      "userEmail": "bakis@gmail.com",
       "foodType": "chinese",
       "price": 1000,
       "location": "abuja"
     },
     {
       "id": 3,
-      "userEmail": "balikis@gmail.com",
       "foodType": "cake",
       "price": 8000,
       "location": "abuja"
     },
     {
-      "foodType": "2",
-      "price": "2",
-      "location": "13",
-      "id": 4
-    },
-    {
       "foodType": "Jollof rice with fish",
       "price": "3000",
       "location": "Bauchi",
-      "id": 5
+      "id": 4
     },
     {
       "foodType": "Cereals and skimmed milk/low fat yoghurt",
       "price": "4000",
       "location": "Akwa Ibom",
-      "id": 6
+      "id": 5
     },
     {
-      "id": 7,
-      "userEmail": "meraldcakes.gmail.com",
+      "id": 6,
       "foodType": "african",
       "price": 8000,
       "location": "abuja"
+    },
+    {
+      "foodType": "Dodo and scrambled eggs",
+      "price": "3000",
+      "location": "Enugu",
+      "id": 7
     }
   ],
   "admin": [
