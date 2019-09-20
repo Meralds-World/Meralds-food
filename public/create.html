@@ -25,14 +25,19 @@
                 <nav class="navbar-nav  ml-auto">
                     <a class="nav-item nav-link active text-secondary" href="index.html">Home</a>
                     <a class="nav-item nav-link active text-secondary" href="index.html">Log-out</a>
-                    <a class="nav-item nav-link active text-secondary" href="viewAll.html">View Menu</a>
-                    <a class="nav-item nav-link active text-secondary" href="viewOrder.html">View Orders</a>
-                    <a class="nav-item nav-link text-secondary" data-toggle="modal" data-target="#createModal"
-                        href="#">Create </a>
-                    <a class="nav-item nav-link text-secondary" data-toggle="modal" data-target="#updateModal"
-                        href="#">Update</a>
-                    <a class="nav-item nav-link text-secondary" data-toggle="modal" data-target="#deleteModal"
-                        href="#">Delete</a>
+                    <div class="dropdown">
+                        <button class="btn btn-Info dropdown-toggle" type="button" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            view
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="nav-item nav-link active text-secondary" href="adminView.html">View Single
+                                Menu</a>
+                            <a class="nav-item nav-link active text-secondary" href="viewAll.html">View All Menus</a>
+                            <a class="nav-item nav-link active text-secondary" href="viewOrder.html">View Orders</a>
+
+                        </div>
+                    </div>
                     <div class="dropdown">
                         <button class="btn btn-Info dropdown-toggle" type="button" id="dropdownMenu2"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,6 +52,7 @@
                                 href="#">Delete</a>
                         </div>
                     </div>
+
                 </nav>
             </div>
         </nav>
