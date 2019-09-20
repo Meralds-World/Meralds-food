@@ -6,8 +6,8 @@ function deleteFood() {
         const url = $(this).attr('id');
         {
             $.ajax({
-                url: url,
-                type: 'POST',
+                url: "http://localhost:3000/food/" + url,
+                type: "delete",
                 data: remove,
                 success: function (data) {
                     $(data).remove();
@@ -15,6 +15,7 @@ function deleteFood() {
                 }
             })
         }
-       
+
     })
 }
+

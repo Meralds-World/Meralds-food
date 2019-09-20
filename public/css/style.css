@@ -90,11 +90,6 @@ footer {
     padding: 50px 10px 10px 10px;
 }
 
-.customer-review img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
 
 .admin-log {
     margin:20px auto;
@@ -104,7 +99,9 @@ footer {
 .copyright {
     margin-top: 15px;
 }
-
+.form-control{
+  width: 80%;
+}
 .form-heading {
     display: block;
     font-size: 2rem;
@@ -127,10 +124,8 @@ footer {
     position: fixed;
     right: 25%;
     width: 50%;
-    min-height: 60%;
-    height: 91.2%;
     overflow: hidden;
-    background: aquamarine;
+    background:violet;
     background-repeat: repeat;
 }
 form {
