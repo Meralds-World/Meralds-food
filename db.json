@@ -151,11 +151,16 @@
   "admin": [
     {
       "id": 1,
+      "email": "meraldcakes@gmail.com",
+      "password": "Grace",
+    },
+    {
+      "id": 2,
       "email": "usthmandan@gmail.com",
       "password": "modupeola"
     },
     {
-      "id": 2,
+      "id": 3,
       "email": "balikis@gmail.com",
       "password": "firebase"
     },

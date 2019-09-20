@@ -21,14 +21,14 @@ function updateFood() {
             alert("Please enter the price");
         } else {
             $.get(url + `?id=${newId}`, (food) => {
-                const dataId = data[0].newId;
-                const type = data[0].foodType;
-                const foodMenu = data[0].menu;
-                const foodSide = data[0].side;
-                const foodPrice = data[0].price;
+                const dataId = food[0].newId;
+                const type = food[0].foodType;
+                const foodMenu = food[0].menu;
+                const foodSide = food[0].side;
+                const foodPrice = food[0].price;
                 {
                     $.ajax({
-                        url: "http://localhost:3000/food/" + url,
+                        url: `http://localhost:3000/food/${dataId}` + url,
                         type: 'PUT',
                         data: {
                             foodId = dataId,
