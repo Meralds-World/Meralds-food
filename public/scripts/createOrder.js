@@ -5,7 +5,7 @@ function createOrder() {
         let foodType = $('#foodType').val();
         const location = $('#location').val();
         const url = $(this).attr('action');
-        const order = { foodType, price, location, userEmail }
+        const order = { foodType, price, location }
         if (foodType === '') {
             alert("Please select from the menu");
         } else if (price === '' || price === 0) {
