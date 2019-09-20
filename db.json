@@ -33,24 +33,12 @@
       "location": "lagos"
     },
     {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
       "userName": "ada",
       "email": "ada@gmail.com",
       "password": "gracekalu",
       "phoneNumber": "07019703051",
       "location": "22",
       "id": 8
-    },
-    {
-      "id": 9
     }
   ],
   "food": [
@@ -165,7 +153,7 @@
       "password": "firebase"
     },
     {
-      "id": 3,
+      "id": 4,
       "email": "gracekalu@gmail.com",
       "password": "kalugrace"
     }
