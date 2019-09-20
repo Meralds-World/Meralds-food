@@ -1,13 +1,14 @@
 function updateFood() {
     $('.update').submit(function (e) {
         e.preventDefault();
-        let foodType = $('#foodType').val();
-        let menu = $('#menu').val();
-        let side = $('#side').val();
+        const newId = $('#foodId').val();
+        const foodType = $('#foodType').val();
+        const menu = $('#menu').val();
+        const side = $('#side').val();
         const price = $('#price').val();
-        const food = { foodType, price, menu, side }
+        const data = { foodType, price, menu, side }
         const url = $(this).attr('action');
-        const newId = gottenFood.id;
+
 
         if (foodType === '') {
             alert("Please enter Food Type");
@@ -18,26 +19,33 @@ function updateFood() {
         } else if (price === '' || price === 0) {
             alert("Please enter the price");
         } else {
-            $.get(url+ `?id=${newId}`, (data) => {
-                const foodId= data[0].id;
-                const type= data[0].foodType;
-                const foodMenu= data[0].menu;
+            $.get(url + `?id=${newId}`, (data) => {
+                const dataId = data[0].id;
+                const type = data[0].foodType;
+                const foodMenu = data[0].menu;
                 const foodSide = data[0].side;
                 const foodPrice = data[0].price;
                 {
-$.ajax({
-    url: url + `/${newId}`,
-    type: 'PUT',
-    data:{
-        foodType: type,
-        menu: foodMenu,
-        side: foodSide,
-        price: foodPrice
-    },
-        success: function(){
-            alert= ' You have successfully updated the menu';
+                    $.ajax({
+                        url: url + `/${newId}`,
+                        type: 'PUT',
+                        data: {
+                            foodId = dataId,
+                            foodType: type,
+                            menu: foodMenu,
+                            side: foodSide,
+                            price: foodPrice
+                        },
+                        success: function () {
+                            alert = ' You have successfully updated the menu';
+                            window.location.replace('./create.html');
+                        }
+
+
+                    });
+                }
+            })
         }
-
-
-    }
-})
+        return false;
+    });
+}
