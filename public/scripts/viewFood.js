@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    const gottenUser = JSON.parse(localStorage.getItem('admin'));
+    const gottenFood = JSON.parse(localStorage.getItem("admin"));
     const newId = gottenFood.id;
 
     $.ajax({
